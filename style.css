@@ -1,0 +1,218 @@
+.html_main {
+    height: 100%;
+}
+
+.body_main{
+  background-image: url('/Photos/France/car.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.icon{
+  width: 4%;
+  height: 4%;
+  margin-left:95%;
+}
+
+.plain{
+  color: white;
+  text-decoration: none;
+  font-family: monaco,Consolas,Lucida Console,monospace;
+}
+
+.aboutbtn{
+  background-color: #1d72aa49;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: monaco,Consolas,Lucida Console,monospace;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #1d72aa49;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  margin-right:40px;
+  font-family: monaco,Consolas,Lucida Console,monospace;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1d72aa49;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(10, 9, 9, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(54, 42, 42)}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #1d72aa49;
+}
+
+.fade-in-header {
+  float: right;
+  color: white;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: .1px;
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+/* Spain CSS Styles */
+.spain-body{
+  background-color:#0d0d0ecb;
+}
+
+.spain-block {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.spain-picSize{
+  width: 60%;
+  height: 60%;
+}
+
+.spain-backbtn{
+  background-color: #1d72aa49;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: monaco,Consolas,Lucida Console,monospace;
+}
+
+/* France CSS Styles */
+.france-body{
+  background-color:#1d72aa49;
+}
+.france-block {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.france-picSize{
+  width: 60%;
+  height: 60%;
+}
+
+.france-backbtn{
+  background-color: #1d72aa49;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: monaco,Consolas,Lucida Console,monospace;
+}
+
+/* About Me Style */
+.aboutMe-p{
+  font-size: 150%;
+  text-align: center;
+}
+
+.aboutMe-body{
+  background-color: #1d72aa49 ;
+}
+
+.aboutMe-backbtn{
+  background-color: #1d72aa49;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: monaco,Consolas,Lucida Console,monospace;
+}
+
+.aboutMe-icon{
+  max-height: 20%;
+  max-width: 20%;
+}
+
+.aboutMe-block {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
